@@ -12,4 +12,4 @@ Major cleaning of the corpora is done in PoeMelBot.ipynb, and in poe-mel-filter.
 
 Four models are fit in the PoeMelBot.ipynb script out of Poe text (1), Mel text (2), the randomized text and a model that combines the markov chains (1) and (2) using markovify.combine() (with equal weights) and are saved as .json files. 
 
-The TweetPoem.ipynb script chooses two of the four models at random, generates text (within Twitter's character limits) and tweets them with a gap of 2 mins between the tweets. 
+The TweetPoem.ipynb script chooses two of the four models at random, generates text (within Twitter's character limits) and tweets them with a gap of 2 mins between the tweets using the tweepy library. 
