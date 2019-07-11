@@ -5,7 +5,7 @@ A twitter bot that imitates the styles of Edgar Allan Poe and Herman Melville us
 The program was built on Colaboratory (for speed while fitting the Markov models, etc) and the two notebooks are the primary code for the bot. The corpora of poems by Edgar Allan Poe and Herman Melville were built off scraped text from Project Gutenberg. 
 
 Markov models were fit using the [markovify](https://github.com/jsvine/markovify) library.
-The script from [Chapterize](https://github.com/JonathanReeve/chapterize) was also used in the cleaning.
+The script from [Chapterize](https://github.com/JonathanReeve/chapterize) was also used for cleaning. So make sure to download the files from there to run the cleaning.
 (Replace directories where necessary)
 
 Major cleaning of the corpora is done in PoeMelBot.ipynb, and in poe-mel-filter.R (R eases cleaning because of its vectorization). The R code also builds another text file which combines the Poe and Melville corpora and randomizes the order of the sentences. 
