@@ -1,6 +1,6 @@
 # PoeMelBot
 
-A twitter bot that imitates the styles of Edgar Allan Poe and Herman Melville using a Markov model.
+A [twitter bot](https://twitter.com/Poemel7) that imitates the styles of Edgar Allan Poe and Herman Melville using a Markov model.
 
 The program was built on Colaboratory (for speed while fitting the Markov models, etc) and the two notebooks are the primary code for the bot. The corpora of poems by Edgar Allan Poe and Herman Melville were built off scraped text from Project Gutenberg. 
 
